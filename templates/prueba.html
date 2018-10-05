@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<form action="../loggin_alumnos/" method="post">
+    <input type="text" name="usuario">
+    <input type="text" name="password">
+    <input type="text" name="no_control">
+    <input type="text" name="password">
+    <input type="submit">
+    {% csrf_token %}
+</form>
+</body>
+</html>
